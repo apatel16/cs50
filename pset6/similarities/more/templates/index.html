@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <div class="col">
+        <form action="/score" method="post" >
+
+            <input name="string1" type="text">
+            <input name="string2" type="text">
+
+            <button type="submit">Calculate</button>
+
+        </form>
+    </div>
+
+{% endblock %}
